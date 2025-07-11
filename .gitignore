@@ -1,0 +1,49 @@
+# ---------------------------------------------------
+# Ignore all environment variable files
+**/.env
+**/.env.*    # .env.local, .env.development, etc.
+
+# Ignore all node_modules folders
+**/node_modules/
+
+# ---------------------------------------------------
+# OS-specific system files
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------------
+# Build output
+**/dist/
+**/build/
+**/.next/
+**/.turbo/
+**/.parcel-cache/
+**/.vercel/
+
+# ---------------------------------------------------
+# Editor / IDE folders
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------------------------------
+# Lint/Tooling cache
+.eslintcache
+.cache/
+coverage/
+
+# ---------------------------------------------------
+# Optional: Ignore compiled typescript output
+**/*.tsbuildinfo
+
+# Optional: Firebase, Docker, etc.
+.firebaserc
+firebase.json
+docker-compose.override.yml
