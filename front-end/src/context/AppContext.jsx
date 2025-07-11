@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 // context provider function
 const AppContextProvider = (props) => {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://medpro-backend.onrender.com";
   const [doctors, setDoctors] = useState([]);
   const [token, setToken] = useState(
     localStorage.getItem("token") ? localStorage.getItem("token") : ""
