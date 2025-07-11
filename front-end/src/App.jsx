@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 import MyProfile from './pages/MyProfile'
 import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
-import NavBar from './components/NavBar'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify';
 // import Chatbot from './components/chatBot'
@@ -18,7 +18,7 @@ const App = () => {
     <div className='mx-4 sm:mx-[10%]'>
 
 
-      <NavBar/>
+      <Navbar/>
       <Routes> 
         <Route path='/' element={<Home/>}/>
         <Route path='/doctors'element={<Doctors/>}/>
